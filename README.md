@@ -55,11 +55,11 @@ If I had more time to keep working on this project, there are a few things I wou
    ```bash
    git clone [https://github.com/SusannaMazzocchi/Red_Wine_Quality.git](https://github.com/SusannaMazzocchi/Red_Wine_Quality.git)
    cd Red_Wine_Quality
-2. Install the required libraries:
+2. Install the dependencies:
+Make sure you have a virtual environment set up (*see requirements.txt*, then run:
    ```bash
-   pip install numpy scipy matplotlib seaborn softpy
+   pip install pandas numpy scikit-learn imbalanced-learn matplotlib jupyter
 
 3. Open the Notebook:
    ```bash
    jupyter notebook main.ipynb
-(Alternatively, you can use Google Colab)
