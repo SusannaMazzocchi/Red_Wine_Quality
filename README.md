@@ -53,14 +53,13 @@ If I had more time to keep working on this project, there are a few things I wou
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/TuoUsername/Wine-Quality-Predictor.git](https://github.com/TuoUsername/Wine-Quality-Predictor.git)
-   cd Wine-Quality-Predictor
+   git clone [https://github.com/SusannaMazzocchi/Red_Wine_Quality.git](https://github.com/SusannaMazzocchi/Red_Wine_Quality.git)
+   cd Red_Wine_Quality
 2. Install the dependencies:
 Make sure you have a virtual environment set up, then run:
    ```bash
-   pip install -r requirements.txt
-*Note: ensure libraries like scikit-learn, pandas, imbalanced-learn, and matplotlib are in the requirements file).*
+   pip install pandas numpy scikit-learn imbalanced-learn matplotlib jupyter
 
-3. Run the script:
+3. Open the Notebook:
    ```bash
-   python main_script.py
+   jupyter notebook main.ipynb
