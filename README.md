@@ -31,13 +31,13 @@ This project was developed for a Machine Learning university exam. The goal is t
 5. **Evaluation:** Assessed the final model using robust metrics for imbalanced datasets, such as F1-score and ROC-AUC, rather than just simple accuracy.
 
 -----------
-🧠 What I Learned
+## 🧠 What I Learned
 Working on this project was a huge learning experience for me. The biggest hurdle I faced was definitely the class imbalance. Most of the wines in the dataset had an average score (5 or 6), so my models really struggled to identify the rare "excellent" or "poor" wines. It took a lot of trial and error, but learning how to use SMOTE to generate synthetic data finally helped balance things out!
 
 I also realized the hard way why Scikit-learn Pipelines are so important. Before this project, I didn't fully understand how easy it is to accidentally cause data leakage during cross-validation. Setting up a Nested Cross-Validation loop was pretty complex and gave me a few headaches, but it taught me how to evaluate a model properly. Finally, this project taught me to stop relying just on "accuracy": I had to start using metrics like F1-score and ROC-AUC to actually see how my models were doing on those tricky minority classes.
 
 --------------------
-🔧 Future Improvements
+## 🔧 Future Improvements
 If I had more time to keep working on this project, there are a few things I would love to try:
 
 * Test stronger algorithms: I’d like to experiment with Gradient Boosting models like XGBoost or LightGBM to see if they can beat my current results.
