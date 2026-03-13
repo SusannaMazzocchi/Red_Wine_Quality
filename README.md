@@ -3,7 +3,7 @@ A Machine Learning pipeline to predict the quality of red wine based on physicoc
 
 ---------
 ## 📝 About the Project
-This project was developed for a Machine Learning university exam. The goal is to classify red wine quality (scored from 3 to 8) using various chemical properties such as acidity, residual sugar, and alcohol content. Since extreme quality scores (like 3 or 8) are very rare, the core challenge of the project focuses on handling **severely imbalanced data** while building a robust predictive model that generalizes well to unseen samples.
+HI, I'm Susanna! I develop this project for a Machine Learning university exam. The goal is to classify red wine quality (scored from 3 to 8) using various chemical properties such as acidity, residual sugar, and alcohol content. Since extreme quality scores (like 3 or 8) are very rare, the core challenge of the project focuses on handling **severely imbalanced data** while building a robust predictive model that generalizes well to unseen samples.
 
 ---------------
 ## 🛠️ Technologies & Tools
