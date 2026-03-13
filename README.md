@@ -56,7 +56,7 @@ If I had more time to keep working on this project, there are a few things I wou
    git clone [https://github.com/SusannaMazzocchi/Red_Wine_Quality.git](https://github.com/SusannaMazzocchi/Red_Wine_Quality.git)
    cd Red_Wine_Quality
 2. Install the dependencies:
-Make sure you have a virtual environment set up, then run:
+Make sure you have a virtual environment set up (*see requirements.txt*, then run:
    ```bash
    pip install pandas numpy scikit-learn imbalanced-learn matplotlib jupyter
 
